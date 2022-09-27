@@ -50,7 +50,7 @@ System.out.println("The Magzine Name is : "+author);
 
 }
 
-public class Assignment {
+public class BookStore {
 public static void main(String[] args) {
 
 Book b = new Book(); 
