@@ -1,5 +1,5 @@
 #include<stdio.h>
-int stack[100],i,j,n,choice=0;top=0;
+int stack[100],i,j,n,choice=0,top=0;
 void push() {
     int val;
     if(top==n)
