@@ -6,13 +6,13 @@ void enqueue() {
     if(rear == n-1)
         printf("\nOverflow\n");
     else {
-        if(front = -1) {
+        printf("Enter the value: ");
+        scanf("%d",&val);
+        if(front == -1) {
             front = 0;
-            printf("Enter the value: ");
-            scanf("%d",&val);
-            rear++;
-            queue[rear] = val;
-        } 
+        }
+        rear++;
+        queue[rear] = val;
     }
 }
 void dequeue() {
